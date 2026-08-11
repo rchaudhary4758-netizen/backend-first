@@ -1,0 +1,16 @@
+{
+  "name": "backend_devloper",
+  "version": "1.0.0",
+  "description": "backend in my first peroject",
+  "keywords": [
+    "javascript",
+    "rohit"
+  ],
+  "license": "ISC",
+  "author": "rohit chaudhary",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
