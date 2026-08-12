@@ -8,9 +8,20 @@
   ],
   "license": "ISC",
   "author": "rohit chaudhary",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchaudhary4758-netizen/backend-first.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rchaudhary4758-netizen/backend-first/issues"
+  },
+  "homepage": "https://github.com/rchaudhary4758-netizen/backend-first#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
