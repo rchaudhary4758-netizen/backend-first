@@ -9,9 +9,9 @@
   "license": "ISC",
   "author": "rohit chaudhary",
   "type": "module",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,13 @@
   },
   "homepage": "https://github.com/rchaudhary4758-netizen/backend-first#readme",
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.6"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "3.7",
+    "mongoose": "^9.9.3"
   }
 }
